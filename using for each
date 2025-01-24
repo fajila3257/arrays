@@ -1,0 +1,35 @@
+program:
+import java.util.*;
+public class ArrayListforeach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList lhs=new ArrayList();
+	       lhs.add(20);
+	       lhs.add("Hello");
+	       lhs.add(90);
+	       lhs.add(80);
+	       for(Object b:lhs){
+	       System.out.println(b);
+	       
+	}
+	  System.out.println("using iterator");
+	  Iterator i1=lhs.iterator();
+	  while(i1.hasNext()){
+		  System.out.println(i1.next())
+		  ;
+		  
+	  }
+
+}
+}
+output:
+80
+using iterator
+20
+Hello
+90
+80
+
+
+
