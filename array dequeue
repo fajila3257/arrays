@@ -1,0 +1,33 @@
+program:
+import java.util.*;
+
+public class Sanple1 {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+		        ArrayDeque ad=new ArrayDeque();
+		        ad.add(42);
+		        ad.add(57);
+		        ad.addFirst(17);
+		        ad.addLast(23);
+		        System.out.println("before removing");
+		        System.out.println(ad);
+		        ad.remove(42);
+		        ad.remove(57);
+		        System.out.println("after removing");
+		        System.out.println(ad);
+		        System.out.println(ad.size());
+		        
+		    
+
+
+			
+	}
+
+}
+output:
+before removing
+[17, 42, 57, 23]
+after removing
+[17, 23]
+2
